@@ -118,41 +118,52 @@ let correctAnswers = 0;
 function showQuestion() {
     let questionText = document.getElementById("question-text");
     questionText.textContent = questions[currentQuestion].question;
-  
+
     let choices = document.querySelectorAll(".choice");
     // iterates over each element in the choices array using the forEach method.
     choices.forEach((choice, index) => {
-      choice.textContent = questions[currentQuestion].choices[index];
+        choice.textContent = questions[currentQuestion].choices[index];
     });
-  
+
     let feedback = document.getElementById("feedback");
     // Display the feeback comment to the user on the webpage
     feedback.textContent = "";
-  
-  }
 
-  // Variable to keep track of the current question index
+}
+
+// Variable to keep track of the current question index
 let currentQuestionIndex = 0;
 const totalQuestions = 10;
 
-  // Function to show the next question
+// Function to show the next question
 function showNextQuestion() {
     // Check if there are still questions left to display
     if (currentQuestionIndex < totalQuestions) {
-      // Get the current question
-      let currentQuestion = questions[currentQuestionIndex];
-  
-      // Display the current question (implement this according to your UI)
-      // Increment the question index for the next time
-      currentQuestionIndex++;
-    } else {
-      // All questions have been displayed
-      console.log("Quiz finished");
-    }
-  }
-  
-  // Calling the function to show the first question
-  showNextQuestion();
+        // Get the current question
+        let currentQuestion = questions[currentQuestionIndex];
 
-  
-  
+        // Display the current question (implement this according to your UI)
+        // Increment the question index for the next time
+        currentQuestionIndex++;
+    } else {
+        // All questions have been displayed
+        console.log("Quiz finished");
+    }
+}
+
+// Calling the function to show the first question
+showNextQuestion();
+
+function checkAnswer(selected) {
+    let feedback = document.getElementById("feedback");
+    if (selected === questions[currentQuestion].correct) {
+        feedback.textContent = "Correct! :)";
+        feedback.style.color = "green";
+        correctAnswers++;
+    } else {
+        feedback.textContent = "Incorrect! :(";
+        feedback.style.color = "red";
+    }
+}
+
+
