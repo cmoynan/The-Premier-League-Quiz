@@ -116,17 +116,15 @@ let correctAnswers = 0;
  * Displays the choices from the choices array on the webpage
  */
 function showQuestion() {
-    let questionText = document.getElementById("question-text");
+    const questionText = document.getElementById("question-text");
     questionText.textContent = questions[currentQuestion].question;
 
-    let choices = document.querySelectorAll(".choice");
-    // iterates over each element in the choices array using the forEach method.
+    const choices = document.querySelectorAll(".choice");
     choices.forEach((choice, index) => {
         choice.textContent = questions[currentQuestion].choices[index];
     });
 
-    let feedback = document.getElementById("feedback");
-    // Display the feeback comment to the user on the webpage
+    const feedback = document.getElementById("feedback");
     feedback.textContent = "";
 
 }
@@ -140,9 +138,10 @@ function showNextQuestion() {
     // Check if there are still questions left to display
     if (currentQuestionIndex < totalQuestions) {
         // Get the current question
-        let currentQuestion = questions[currentQuestionIndex];
+        const currentQuestion = questions[currentQuestionIndex];
 
         // Display the current question (implement this according to your UI)
+
         // Increment the question index for the next time
         currentQuestionIndex++;
     } else {
@@ -151,21 +150,35 @@ function showNextQuestion() {
     }
 }
 
-// Calling the function to show the first question
+// Call the function to show the first question
 showNextQuestion();
 
 function checkAnswer(selected) {
-    let feedback = document.getElementById("feedback");
+    const feedback = document.getElementById("feedback");
     if (selected === questions[currentQuestion].correct) {
-        feedback.textContent = "Correct! :)";
+        feedback.textContent = "Correct!";
         feedback.style.color = "green";
         correctAnswers++;
     } else {
-        feedback.textContent = "Incorrect! :(";
+        feedback.textContent = "Incorrect!";
         feedback.style.color = "red";
     }
+
+    setTimeout(() => {
+        currentQuestion++;
+
+        if (currentQuestion < questions.length) {
+            showQuestion();
+
+
+        } else {
+            const quizContainer = document.querySelector(".quiz-container");
+            quizContainer.innerHTML = `<h1>You got ${correctAnswers} out of ${questions.length} questions.</h1>`;
+
+        }
+    }, 500);
 }
 
-showQuestion();
 
+showQuestion();
 
