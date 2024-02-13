@@ -166,4 +166,6 @@ function checkAnswer(selected) {
     }
 }
 
+showQuestion();
+
 
