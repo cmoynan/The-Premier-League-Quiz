@@ -4,4 +4,20 @@ body {
     font-weight: 200;
     font-style: normal;
     width: 85vw;
-  }
+}
+
+h1 {
+    font-size: large;
+}
+
+.quiz-container {
+    box-sizing: border-box;
+    width: 90vw;
+    max-width: 95%;
+    height: 95vh;
+    padding: 1rem;
+    background-color: beige;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
