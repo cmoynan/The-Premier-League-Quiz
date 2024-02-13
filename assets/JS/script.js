@@ -131,12 +131,16 @@ function showQuestion() {
   
   }
 
+  // Variable to keep track of the current question index
+let currentQuestionIndex = 0;
+const totalQuestions = 10;
+
   // Function to show the next question
 function showNextQuestion() {
     // Check if there are still questions left to display
     if (currentQuestionIndex < totalQuestions) {
       // Get the current question
-      const currentQuestion = questions[currentQuestionIndex];
+      let currentQuestion = questions[currentQuestionIndex];
   
       // Display the current question (implement this according to your UI)
       // Increment the question index for the next time
@@ -149,4 +153,6 @@ function showNextQuestion() {
   
   // Calling the function to show the first question
   showNextQuestion();
+
+  
   
