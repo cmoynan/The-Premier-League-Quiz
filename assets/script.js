@@ -130,3 +130,23 @@ function showQuestion() {
     feedback.textContent = "";
   
   }
+
+  // Function to show the next question
+function showNextQuestion() {
+    // Check if there are still questions left to display
+    if (currentQuestionIndex < totalQuestions) {
+      // Get the current question
+      const currentQuestion = questions[currentQuestionIndex];
+  
+      // Display the current question (implement this according to your UI)
+      // Increment the question index for the next time
+      currentQuestionIndex++;
+    } else {
+      // All questions have been displayed
+      console.log("Quiz finished");
+    }
+  }
+  
+  // Calling the function to show the first question
+  showNextQuestion();
+  
