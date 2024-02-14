@@ -6,7 +6,8 @@ body {
     font-style: normal;
     width: 100vw;
     height: 100vh;
-    padding: 5px;
+    padding-top: 0rem;
+    padding: 2rem;
 }
 
 h1 {
@@ -18,7 +19,8 @@ h1 {
     box-sizing: border-box;
     width: 90vw;
     max-width: 95%;
-    height: 95vh;
+    height: 97vh;
+    padding-top: 0rem;
     padding: 1rem;
     background-color: beige;
     border-radius: 10px;
