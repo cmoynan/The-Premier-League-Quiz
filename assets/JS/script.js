@@ -171,6 +171,11 @@ function showNextQuestion() {
 // Call the function to show the first question
 showNextQuestion();
 
+/**
+ * Checks the answer selected against the correct answer
+ * Checks what feedback to display if question is correct or incorrect
+ * Increments the score if the answer is correct
+ */
 function checkAnswer(selected) {
     const feedback = document.getElementById("feedback");
     if (selected === questions[currentQuestion].correct) {
