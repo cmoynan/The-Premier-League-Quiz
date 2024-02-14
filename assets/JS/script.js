@@ -103,6 +103,11 @@ let questions = [
         choices: ["18", "20", "22", "24"],
         correct: 2
     },
+    {
+        question: "How many clubs competed in the Premier League’s first season?",
+        choices: ["18", "20", "22", "24"],
+        correct: 2
+    },
     
 ];
 /**
@@ -122,8 +127,6 @@ function shuffleArray(questions) {
         const j = Math.floor(Math.random() * (i + 1));
         [questions[i], questions[j]] = [questions[j], questions[i]];
     }
-
-    return questions.splice(0, 10);
 }
 
 // Shuffle the questions array
@@ -169,7 +172,7 @@ function showNextQuestion() {
     }
 }
 
-// Call the function to show the first question
+// Calls the function to show the first question
 showNextQuestion();
 
 /**
@@ -197,16 +200,15 @@ function checkAnswer(selected) {
     setTimeout(() => {
         currentQuestion++;
 
-        if (currentQuestion < questions.length) {
+        if (currentQuestion < totalQuestions) {
             showQuestion();
             //increment question number each time new question loads
-            document.getElementById("question-tracker").innerText;
             document.getElementById("question-tracker").innerText = ++questionTracker;
 
 
         } else {
             const quizContainer = document.querySelector(".quiz-container");
-            quizContainer.innerHTML = `<h1>You got ${correctAnswers} out of ${questions.length} questions.</h1>`;
+            quizContainer.innerHTML = `<h1>You got ${correctAnswers} out of ${totalQuestions} questions.</h1>`;
 
             // creating a restart button to display at the end of the quiz
             const newButton = document.createElement('button');
