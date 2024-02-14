@@ -72,6 +72,7 @@ h1 {
     cursor: pointer;
 }
 
+/* Style for screens with a minimum width of 768px */
 @media screen and (min-width: 768px) {
 
     body {
@@ -93,7 +94,7 @@ h1 {
     }
     
     #feedback {
-        font-size: xx-large;
+        font-size: 40px;
     }
 
     #restart-Btn {
