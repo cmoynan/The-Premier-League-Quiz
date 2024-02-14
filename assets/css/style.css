@@ -64,3 +64,16 @@ h1 {
 #feedback {
     font-size: larger;
 }
+
+/* Style for the Restart Button */
+#restart-Btn {
+    font-size: 1em;
+    position: relative;
+    margin: 5px 5px;
+    padding: .5em .75em;
+    background-color: #81bde4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
