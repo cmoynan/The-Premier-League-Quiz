@@ -111,6 +111,25 @@ let currentQuestion = 0;
 let correctAnswers = 0;
 
 /**
+ * Shuffle function to randomize the order of elements in an array
+ * @param {Array} questions 
+ * @returns Returns array of 10 questions out of 20 in random order
+ */
+function shuffleArray(questions) {
+    console.log(questions);
+    for (let i = questions.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [questions[i], questions[j]] = [questions[j], questions[i]];
+    }
+  
+    return questions.splice(0, 10);
+  }
+  
+  // Shuffle the questions array
+  shuffleArray(questions);
+  
+
+/**
  * Displays the questions from the string on the Webpage
  * Sets the Text content of the questionText element to be the text of the current question
  * Displays the choices from the choices array on the webpage
