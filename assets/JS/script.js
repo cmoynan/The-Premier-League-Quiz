@@ -127,7 +127,7 @@ function shuffleArray(questions) {
 }
 
 // Shuffle the questions array
-let splicedQuestions = shuffleArray(questions);
+shuffleArray(questions);
 
 /**
  * Displays the questions from the string on the Webpage
