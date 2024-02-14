@@ -1,39 +1,63 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+THE PREMIER LEAGUE QUIZ
 
-Welcome,
+Hello,
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![image](https://github.com/cmoynan/The-Premier-League-Quiz/assets/150179658/6c417846-dddd-4b84-afe6-309830d797fb)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+Welcome to my my Premier league quiz website. This site is a simple quiz. There is a total of 30 questions but each time the quiz is started you will get a 10 out of the 30 questions in random order. You get feedback if you answer the question correct or incorrectly and once you have answered 10 questions you will get your result.
 
-## Codeanywhere Reminders
+FEATURES :
+The site is a simple enough quiz.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+Each time a question is answered it provides feedback to the user if they got the question correct or incorrect. 
 
-`python3 -m http.server`
+![image](https://github.com/cmoynan/The-Premier-League-Quiz/assets/150179658/96449d88-da47-40f5-aea8-17cf20833465)
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+There is a question tracker that indicates to the user what question they're currently on also.
 
-`http_server`
+![image](https://github.com/cmoynan/The-Premier-League-Quiz/assets/150179658/c83d20d1-4dbc-476a-8479-d7c3bdeca81e)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+Once 10 questions are answered it will give the user the amount of correct answers out of 10. On the reult page they will be presented with a restart button which will refresh the webpage and give the users a new set of quesyions. there is 30 questions so the prbability of getting the exact smae questions in the same order is very slim and this will keep the users interested.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+![image](https://github.com/cmoynan/The-Premier-League-Quiz/assets/150179658/080641ca-1ff9-421e-b590-e4467d666d5b)
 
-To log into the Heroku toolbelt CLI:
+The Poppins font is useed to create a more fun view of the site and the background colors on the pages give it a cartoon like view.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+The site is functional and accessible over all screen devices and below is a screenshot of the AMI responsive Website
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+![image](https://github.com/cmoynan/The-Premier-League-Quiz/assets/150179658/6c417846-dddd-4b84-afe6-309830d797fb)
 
----
+TESTING :
 
-Happy coding!
+I have completed the quiz multiple times to ensure all functions run correctly and that there are no bugs. Biggest test was to make sure that questions never repeated in the same session. There was a number of Bugs in the Java code at times from more than 10 questions being asked to Questions not displaying to random questions not working but all have been fixed.
+
+Tested HTML on the W3c Markup Validator and got no errors.
+
+![image](https://github.com/cmoynan/The-Premier-League-Quiz/assets/150179658/13038b03-ad02-4b26-97f6-05ab19074494)
+
+Tested the CSS on W3c CSS validator and no erros were found.
+
+![image](https://github.com/cmoynan/The-Premier-League-Quiz/assets/150179658/dd36f4b2-6018-4a96-b2f1-728aa5ef9aba)
+
+DEPLOYMENT :
+
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+In the GitHub repository, navigate to the Settings tab
+From the source section drop-down menu, select the Master Branch
+Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+The live link can be found here - https://cmoynan.github.io/The-Premier-League-Quiz/
+
+CREDITS :
+
+The ShuffleArray function is from the stack overflow website . I was unable to get the randomisation of questions to work without repeating so copied this code from there.
+
+https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
+
+The questions in the quiz are from various quizzes online
+
+
+
+
+
