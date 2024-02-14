@@ -118,16 +118,15 @@ let correctAnswers = 0;
 function shuffleArray(questions) {
     console.log(questions);
     for (let i = questions.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [questions[i], questions[j]] = [questions[j], questions[i]];
+        const j = Math.floor(Math.random() * (i + 1));
+        [questions[i], questions[j]] = [questions[j], questions[i]];
     }
-  
+
     return questions.splice(0, 10);
-  }
-  
-  // Shuffle the questions array
-  shuffleArray(questions);
-  
+}
+
+// Shuffle the questions array
+shuffleArray(questions);
 
 /**
  * Displays the questions from the string on the Webpage
@@ -194,13 +193,21 @@ function checkAnswer(selected) {
             const quizContainer = document.querySelector(".quiz-container");
             quizContainer.innerHTML = `<h1>You got ${correctAnswers} out of ${questions.length} questions.</h1>`;
 
+            // creating a restart button to display at the end of the quiz
+            const newButton = document.createElement('button');
+            newButton.textContent = 'Restart';
+            quizContainer.appendChild(newButton);
+            newButton.id = "restart-Btn";
+            newButton.addEventListener("click", restartQuiz);
+
         }
-    }, 500);
-    
-// function that reloads the webpage when the restart button is clicked
+
+    }, 1000); // time for page to refresh after answer chosen
+
+    // function that reloads the webpage when the restart button is clicked
     function restartQuiz() {
         window.location.reload();
+    }
+
 }
-
-
 showQuestion();
