@@ -1,6 +1,7 @@
-/**
- * variable questions with a string for the questions,Array for the choices and indexing for the correct answer
- */
+// variable to keep trak of the questions answered and remaining
+let questionTracker = 1;
+
+// variable questions with a string for the questions,Array for the choices and indexing for the correct answer
 let questions = [
     {
         question: "Which player scored the fastest hat-trick in the Premier League?",
@@ -198,6 +199,10 @@ function checkAnswer(selected) {
 
         if (currentQuestion < questions.length) {
             showQuestion();
+            //increment question number each time new question loads
+            document.getElementById("question-tracker").innerText;
+            document.getElementById("question-tracker").innerText = ++questionTracker;
+
 
         } else {
             const quizContainer = document.querySelector(".quiz-container");
