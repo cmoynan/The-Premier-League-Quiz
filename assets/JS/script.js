@@ -104,10 +104,55 @@ let questions = [
         correct: 2
     },
     {
-        question: "How many clubs competed in the Premier League’s first season?",
-        choices: ["18", "20", "22", "24"],
+        question: "Who won the Premier League in 1997-98??",
+        choices: ["Arsenal", "Manchester United", "Chelsea", "Liverpool"],
+        correct: 0
+      },
+      {
+        question: "Who holds the record for most Premier League wins as a manager?",
+        choices: ["Pep Guardiola", "David Moyes", "Alex Ferguson", "Arsene Wenger"],
         correct: 2
-    },
+      },
+      {
+        question: "Who holds the record for most Premier League goals in a calendar year?",
+        choices: ["Wayne Rooney", "Harry Kane", "Sergio Aguero", "Alan Shearer"],
+        correct: 1
+      },
+      {
+        question: "Who holds the record for most Premier League games as club captain?",
+        choices: ["Frank Lampard", "Roy Keane", "Patrick Vieira", "Steven Gerrard"],
+        correct: 3
+      },
+      {
+        question: "What is the name of Wolverhampton Wanderer's stadium?",
+        choices: ["Old Trafford", "Craven Cottage", "Molineux", "Stamford Bridge"],
+        correct: 2
+      },
+      {
+        question: "Who are the current Champions of the Premier League?",
+        choices: ["Arsenal", "Liverpool", "Manchester City", "Tottenham Hotspur"],
+        correct: 2
+      },
+      {
+        question: "Who was the first foreign manager to win a Premier League Title?",
+        choices: ["Arsene Wenger", "Jose Mourinho", "Fabio Capello", "Roberto Mancini"],
+        correct: 0
+      },
+      {
+        question: "Which of these teams have never played in the Premier league?",
+        choices: ["Norwich", "Derby County", "Preston North End", "Charlton Athetic"],
+        correct: 2
+      },
+      {
+        question: "Which player has commited the most fouls in the Premier league of all time?",
+        choices: ["Roy Keane", "James Milner", "Paul Scholes", "Gareth barry"],
+        correct: 3
+      },
+      {
+        question: "With 100 points which team holds the record for the most points in a single season?",
+        choices: ["Arsenal", "Liverpool", "Manchester City", "Chelsea"],
+        correct: 2
+      },
     
 ];
 /**
