@@ -59,3 +59,8 @@ h1 {
 .choice:focus {
     background-color: #0d67a3;
 }
+
+/* Style for the feedback content */
+#feedback {
+    font-size: larger;
+}

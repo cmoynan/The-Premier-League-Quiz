@@ -174,11 +174,11 @@ showNextQuestion();
 function checkAnswer(selected) {
     const feedback = document.getElementById("feedback");
     if (selected === questions[currentQuestion].correct) {
-        feedback.textContent = "Correct!";
+        feedback.textContent = "Correct! :)";
         feedback.style.color = "green";
         correctAnswers++;
     } else {
-        feedback.textContent = "Incorrect!";
+        feedback.textContent = "Incorrect! :(";
         feedback.style.color = "red";
     }
 
