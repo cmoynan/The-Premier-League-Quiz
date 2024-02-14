@@ -80,28 +80,29 @@ h1 {
 /* Style for screens with a minimum width of 390px */
 @media screen and (min-width: 390px) {
     h1 {
-        font-size: 50px;
+        font-size: 45px;
         padding-top: 1rem;
     }
     .questionCounter {
-        font-size: 30px;
+        font-size: 28px;
         padding: 0%;
     }
 
     #question-text {
-        font-size: 35px;
+        font-size: 33px;
         padding-top: 2rem;
     }
 
     .choice {
-        font-size: 1.1em;
+        font-size: 1em;
         display: flex;
         flex-direction: row;
         justify-content: center;
+        padding-top: 0%;
     }
 
     #feedback {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     #restart-Btn {
@@ -165,12 +166,12 @@ h1 {
     }
 
     .choice {
-        font-size: 1.8em;
+        font-size: 1em;
 
     }
 
     #restart-Btn {
-        font-size: 2rem;
+        font-size: 1.3rem;
     }
 
 }

@@ -114,8 +114,7 @@ let correctAnswers = 0;
 
 /**
  * Shuffle function to randomize the order of elements in an array
- * @param {Array} questions 
- * @returns Returns array of 10 questions out of 20 in random order
+ *  Returns array of 10 questions out of 20 in random order
  */
 function shuffleArray(questions) {
     console.log(questions);
@@ -128,7 +127,7 @@ function shuffleArray(questions) {
 }
 
 // Shuffle the questions array
-shuffleArray(questions);
+let splicedQuestions = shuffleArray(questions);
 
 /**
  * Displays the questions from the string on the Webpage
@@ -160,7 +159,7 @@ function showNextQuestion() {
         // Get the current question
         const currentQuestion = questions[currentQuestionIndex];
 
-        // Display the current question
+        // Display the current question 
 
         // Increment the question index for the next time
         currentQuestionIndex++;
