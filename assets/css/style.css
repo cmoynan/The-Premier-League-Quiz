@@ -103,7 +103,8 @@ h1 {
 
 }
 
-@media screen and (min-width: 1200px) {
+/* Style for screens with a minimum width of 1024px */
+@media screen and (min-width: 1024px) {
     h1 {
         font-size: 45px;
         padding-top: 1rem;
@@ -111,9 +112,10 @@ h1 {
     #question-text {
         font-size: 35px;
         padding-top: 2rem;
+        padding-bottom: 2rem;
     }
     .choice {
-        font-size: 1.3em;
+        font-size: 1.8em;
         
     }
     #restart-Btn {
