@@ -182,6 +182,12 @@ function checkAnswer(selected) {
         feedback.style.color = "red";
     }
 
+    /**
+     * Increments the current question
+     * checks if there is more questions to display
+     * If all questions have been answered displays the result
+     */
+
     setTimeout(() => {
         currentQuestion++;
 
