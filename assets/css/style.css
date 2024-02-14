@@ -90,9 +90,11 @@ h1 {
         flex-direction: row;
         justify-content: center;
     }
+
     #feedback {
         font-size: 30px;
     }
+
     #restart-Btn {
         font-size: 2rem;
     }

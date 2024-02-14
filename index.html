@@ -7,6 +7,7 @@
     <title>The Premier League Quiz</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/Favicon/icons8-football-16.png">
+    <!-- Importing the the poppins font from google fonts -->
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
@@ -15,8 +16,14 @@
 </head>
 
 <body>
+    <!-- Main quiz container -->
     <div class="quiz-container">
         <h1>The Premier League Quiz</h1>
+        <!-- Keeping track of current question -->
+        <div class="questionCounter">
+            <span id="question-tracker">1</span>
+            <span id="total-questions">/10</span>
+        </div>
         <div class="question">
             <p id="question-text">GET READY !!!!!!!!!!!</p>
             <div class="choices">
@@ -26,13 +33,10 @@
                 <button class="choice" onclick="checkAnswer(3)">?</button>
             </div>
             <p id="feedback">
-            
-
             </p>
-
-
         </div>
     </div>
+    <!-- Link to Javascript page -->
     <script src="assets/JS/script.js"></script>
 
 </body>

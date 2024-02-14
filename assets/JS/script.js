@@ -199,7 +199,6 @@ function checkAnswer(selected) {
         if (currentQuestion < questions.length) {
             showQuestion();
 
-
         } else {
             const quizContainer = document.querySelector(".quiz-container");
             quizContainer.innerHTML = `<h1>You got ${correctAnswers} out of ${questions.length} questions.</h1>`;
