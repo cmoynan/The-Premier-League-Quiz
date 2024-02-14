@@ -69,8 +69,8 @@ let questions = [
         correct: 1
     },
     {
-        question: "Lee Bowyer and which other teammate were sent off for fighting each other during a match?",
-        choices: ["Alan Shearer", "Nicky Butt", "Kieron Dyer", "Jamie O'Hara"],
+        question: "Which club has recorded the most defeats in Premier League history?",
+        choices: ["Aston Villa", "West Ham", "Everton", "Newcastle"],
         correct: 2
     },
     {
@@ -103,6 +103,7 @@ let questions = [
         choices: ["18", "20", "22", "24"],
         correct: 2
     },
+    
 ];
 /**
  * Keep track of the index of the current question
@@ -159,7 +160,7 @@ function showNextQuestion() {
         // Get the current question
         const currentQuestion = questions[currentQuestionIndex];
 
-        // Display the current question (implement this according to your UI)
+        // Display the current question
 
         // Increment the question index for the next time
         currentQuestionIndex++;
