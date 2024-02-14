@@ -19,7 +19,7 @@ There is a question tracker that indicates to the user what question they're cur
 ![image](https://github.com/cmoynan/The-Premier-League-Quiz/assets/150179658/c83d20d1-4dbc-476a-8479-d7c3bdeca81e)
 
 
-Once 10 questions are answered it will give the user the amount of correct answers out of 10. On the reult page they will be presented with a restart button which will refresh the webpage and give the users a new set of quesyions. there is 30 questions so the prbability of getting the exact smae questions in the same order is very slim and this will keep the users interested.
+Once 10 questions are answered it will give the user the amount of correct answers out of 10. On the result page they will be presented with a restart button which will refresh the webpage and give the users a new set of questions. There is 30 questions so the probability of getting the exact same questions in the same order is very slim and this will keep the users interested.
 
 ![image](https://github.com/cmoynan/The-Premier-League-Quiz/assets/150179658/080641ca-1ff9-421e-b590-e4467d666d5b)
 
@@ -37,7 +37,7 @@ Tested HTML on the W3c Markup Validator and got no errors.
 
 ![image](https://github.com/cmoynan/The-Premier-League-Quiz/assets/150179658/13038b03-ad02-4b26-97f6-05ab19074494)
 
-Tested the CSS on W3c CSS validator and no erros were found.
+Tested the CSS on W3c CSS validator and no errors were found.
 
 ![image](https://github.com/cmoynan/The-Premier-League-Quiz/assets/150179658/dd36f4b2-6018-4a96-b2f1-728aa5ef9aba)
 
@@ -56,6 +56,9 @@ The ShuffleArray function is from the stack overflow website . I was unable to g
 https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
 
 The questions in the quiz are from various quizzes online
+
+
+Enjoy the Quiz
 
 
 
