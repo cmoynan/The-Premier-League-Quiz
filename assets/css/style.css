@@ -92,5 +92,12 @@ h1 {
         justify-content: center;
     }
     
+    #feedback {
+        font-size: xx-large;
+    }
+
+    #restart-Btn {
+        font-size: 2.5rem;
+    }
 
 }
