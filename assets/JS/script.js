@@ -196,8 +196,11 @@ function checkAnswer(selected) {
 
         }
     }, 500);
+    
+// function that reloads the webpage when the restart button is clicked
+    function restartQuiz() {
+        window.location.reload();
 }
 
 
 showQuestion();
-
