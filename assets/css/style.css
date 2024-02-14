@@ -55,11 +55,6 @@ h1 {
     cursor: pointer;
 }
 
-/* Change color of the answer when clicked - Mobile Use*/
-.choice:focus {
-    background-color: #0d67a3;
-}
-
 /* Style for the feedback content */
 #feedback {
     font-size: larger;
