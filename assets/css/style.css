@@ -26,10 +26,15 @@ h1 {
 
 }
 
+.questionCounter {
+    font-size: 20px;
+    padding: 0%;
+}
+
 /* Questions */
 #question-text {
     font-size: large;
-    padding-top: 2rem;
+    padding-top: 1rem;
 }
 
 /* The possible answer choices*/
@@ -78,6 +83,10 @@ h1 {
         font-size: 50px;
         padding-top: 1rem;
     }
+    .questionCounter {
+        font-size: 30px;
+        padding: 0%;
+    }
 
     #question-text {
         font-size: 35px;
@@ -105,6 +114,10 @@ h1 {
 
     body {
         padding-left: 2rem;
+    }
+    .questionCounter {
+        font-size: 35px;
+        padding: 0%;
     }
 
     h1 {
@@ -139,6 +152,10 @@ h1 {
     h1 {
         font-size: 45px;
         padding-top: 1rem;
+    }
+    .questionCounter {
+        font-size: 40px;
+        padding: 0%;
     }
 
     #question-text {
