@@ -59,12 +59,6 @@ h1 {
     cursor: pointer;
 }
 
-button.choice {
-    font-weight: 300;
-    text-decoration-color: white;
-    filter: contrast(120%);
-  }
-
 /* Style for the feedback content */
 #feedback {
     font-size: larger;
@@ -183,6 +177,39 @@ button.choice {
 
     #restart-Btn {
         font-size: 1.3rem;
+    }
+
+}
+
+/* Style for screens with a max height of 640px */
+@media screen and (max-height: 640px) {
+
+    h1 {
+        font-size: 25px;
+    }
+    h1 {
+        font-size: 20px;
+        padding-top: 0rem;
+    }
+
+    .questionCounter {
+        font-size: 35px;
+        padding: 0%;
+    }
+
+    #question-text {
+        font-size: 30px;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .choice {
+        font-size: 1.3em;
+
+    }
+
+    #restart-Btn {
+        font-size: 1rem;
     }
 
 }
