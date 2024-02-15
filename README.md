@@ -61,7 +61,7 @@ Using Lighthouse funcion in Devtools I go the below score. Accessibility was an 
 
 ![image](https://github.com/cmoynan/The-Premier-League-Quiz/assets/150179658/57865843-a21d-4c8d-b094-3cd2cb1ae497)
 
-Tested the website on JShint. Erro that the variable CheckAnswer on line 277 of the code is not used but there is no variable here for that and after searching throughout the code I cannot see a variable declard for checkAnswer so I unfortuntely had to leave this issue without resolving.
+Tested the website on JShint. Error that the variable CheckAnswer on line 277 of the code is not used but there is no variable here for that and after searching throughout the code I cannot see a variable declared for checkAnswer so I unfortunately had to leave this issue without resolving.
 
 DEPLOYMENT :
 

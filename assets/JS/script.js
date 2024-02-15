@@ -253,8 +253,6 @@ const totalQuestions = 10;
 function showNextQuestion() {
   // Check if there are still questions left to display
   if (currentQuestionIndex < totalQuestions) {
-    // Get the current question
-    const currentQuestion = questions[currentQuestionIndex];
 
     // Display the current question 
 
@@ -299,8 +297,6 @@ function checkAnswer(selected) {
       showQuestion();
       //increment question number each time new question loads
       document.getElementById("question-tracker").innerText = ++questionTracker;
-
-
     } else {
       const quizContainer = document.querySelector(".quiz-container");
       quizContainer.innerHTML = `<h1>You got ${correctAnswers} out of ${totalQuestions} questions.</h1>`;
