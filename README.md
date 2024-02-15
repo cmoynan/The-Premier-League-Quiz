@@ -19,7 +19,7 @@ There is a question tracker that indicates to the user what question they're cur
 ![image](https://github.com/cmoynan/The-Premier-League-Quiz/assets/150179658/cced8f74-ab91-40a7-995e-7003253a14c4)
 
 
-Once 10 questions are answered it will give the user the amount of correct answers out of 10. On the result page they will be presented with a restart button which will refresh the webpage and give the users a new set of quesyions. there is 30 questions so the prbability of getting the exact smae questions in the same order is very slim and this will keep the users interested.
+Once 10 questions are answered it will give the user the amount of correct answers out of 10. On the result page they will be presented with a restart button which will refresh the webpage and give the users a new set of questions. There is 30 questions so the prbability of getting the exact same questions in the same order is very slim and this will keep the users interested.
 
 ![image](https://github.com/cmoynan/The-Premier-League-Quiz/assets/150179658/cf8cf937-37ad-487a-81dd-876be1e1a685)
 
@@ -44,7 +44,7 @@ Tested the CSS on W3c CSS validator and no erros were found.
 
 ![image](https://github.com/cmoynan/The-Premier-League-Quiz/assets/150179658/b7b750d9-df9a-401c-b53a-820818752aaa)
 
-Using Lighthouse funcion in Devtools I go the below score. Accessibility as an issue dies to the contrast and color of the choice buttons but making them darker resolved the accessibility issue.
+Using Lighthouse funcion in Devtools I go the below score. Accessibility was an issue due to the contrast and color of the choice buttons but making them darker resolved the accessibility issue.
 
 ![image](https://github.com/cmoynan/The-Premier-League-Quiz/assets/150179658/57865843-a21d-4c8d-b094-3cd2cb1ae497)
 
