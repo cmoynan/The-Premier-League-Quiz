@@ -2,7 +2,7 @@ THE PREMIER LEAGUE QUIZ
 
 Hello,
 
-Welcome to my my Premier league quiz website. This site is a simple quiz. There is a total of 30 questions but each time the quiz is started you will get a 10 out of the 30 questions in random order. You get feedback if you answer the question correct or incorrectly and once you have answered 10 questions you will get your result.
+Welcome to my my Premier league quiz website. This site is a simple quiz. There is a total of 40 questions but each time the quiz is started users will only get 10 questions out of the 40 in random order. You get feedback if you answer the question correct or incorrectly and once you have answered 10 questions you will get your result. On the result page there is a restart option that refreshes the webpage and the quiz starts again. You may get repeat questions in a new quiz due to probability but questions will never repeat in the same game so users cn play the game multiple times and generally will have to play muliple times before they get a game where they have already see all the questions asked.
 
 FEATURES : The site is a simple enough quiz.
 
@@ -48,7 +48,7 @@ Using Lighthouse funcion in Devtools I go the below score. Accessibility was an 
 
 ![image](https://github.com/cmoynan/The-Premier-League-Quiz/assets/150179658/57865843-a21d-4c8d-b094-3cd2cb1ae497)
 
-
+I have sent the quiz onto multiple friends and asked them to try and break the quiz also and report any bugs.
 
 DEPLOYMENT :
 
