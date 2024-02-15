@@ -52,12 +52,18 @@ h1 {
     display: block;
     margin: 5px 5px;
     padding: .5em .75em;
-    background-color: #81bde4;
+    background-color: rgb(188, 127, 12);
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
+
+button.choice {
+    font-weight: 300;
+    text-decoration-color: white;
+    filter: contrast(120%);
+  }
 
 /* Style for the feedback content */
 #feedback {
