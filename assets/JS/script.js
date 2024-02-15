@@ -153,6 +153,56 @@ let questions = [
         choices: ["Arsenal", "Liverpool", "Manchester City", "Chelsea"],
         correct: 2
       },
+      {
+        question: "What is the name of Luton Towns Stadium?",
+        choices: ["King Power", "Kenilworth Road", "Turf Moor", "Community Stadium"],
+        correct: 1
+      },
+      {
+        question: "What is the name of Burnley's Stadium?",
+        choices: ["Turf Moor", "The Amex", "Kenilworth Road", "Vitality Stadium"],
+        correct: 0
+      },
+      {
+        question: "What is the name of Brighton's Stadium?",
+        choices: ["Emirates", "Vitality Stadium", "The Amex", "Turf Moor"],
+        correct: 2
+      },
+      {
+        question: "What is the name of Newcastle's Stadium?",
+        choices: ["Sports Direct Arena", "Stadium of Light", "Goodison Park", "St James Park"],
+        correct: 3
+      },
+      {
+        question: "What is the name of Crystal Palace's Stadium?",
+        choices: ["Vitality", "Craven Cottage", "Selhurst park", "Goodison Park"],
+        correct: 2
+      },
+      {
+        question: "What is the name of West Ham's Stadium?",
+        choices: ["Upton Park", "London Stadium", "The Boleyn Ground", "Craven Cottage"],
+        correct: 1
+      },
+      {
+        question: "Who won the Premier League in 2014-15?",
+        choices: ["Arsenal", "Liverpool", "Manchester City", "Chelsea"],
+        correct: 3
+      },
+      {
+        question: "Who won the Premier League in 2015-16?",
+        choices: ["Arsenal", "Liverpool", "Leicester City", "Manchester City"],
+        correct: 2
+      },
+      {
+        question: "What is the nickname of Manchester City?",
+        choices: ["City Boys", "Blue Devils", "Citizens", "Blue Moon Army"],
+        correct: 2
+      },
+      {
+        question: "What is the nickname of Everton?",
+        choices: ["The Eagles", "The Saints", "The Blues", "The Toffees"],
+        correct: 3
+      },
     
 ];
 /**
