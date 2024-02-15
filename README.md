@@ -2,6 +2,7 @@ THE PREMIER LEAGUE QUIZ
 
 ![image](https://github.com/cmoynan/The-Premier-League-Quiz/assets/150179658/8ceeeb6f-1737-4d3d-abed-e628744df074)
 
+Link to live website : https://cmoynan.github.io/The-Premier-League-Quiz/
 
 Hello,
 
@@ -38,9 +39,13 @@ TESTING :
 I have completed the quiz multiple times to ensure all functions run correctly and that there are no bugs. Biggest test was to make sure that questions never repeated in the same session. There was a number of Bugs in the Java code at times from more than 10 questions being asked to Questions not displaying to random questions not working but all have been fixed.
 
 Do all the answer buttons work? - Yes - Tested on a phone/tablet and laptop.
+
 Does the restart Button work? - Yes - Tested on a phone/tablet and laptop.
+
 Is only 10 questions asked each time the quiz is finished - Yes
+
 Are the questions always random and in different order - Yes
+
 Is the website functional on muliple browsers and device sizes - Yes. tested on Dev tools around screen sizes and tried the website on Safari, Chrome, Edge and Mozilla and the quiz functions as it should
 
 Tested HTML on the W3c Markup Validator and got no errors.
