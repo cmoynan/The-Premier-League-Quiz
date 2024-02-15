@@ -39,7 +39,7 @@ h1 {
     padding-top: 1rem;
 }
 
-/* Style for the possible answer buttons*/
+/* Style for the list of answers*/
 .choices {
     display: flex;
     justify-content: center;
